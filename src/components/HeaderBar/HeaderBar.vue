@@ -9,7 +9,7 @@
         <router-link class="nav-nav" to="/poem">诗</router-link>
         <router-link class="nav-nav" to="/distance">远方</router-link>
         <router-link class="nav-nav" to="/address">地址</router-link>
-        <router-link class="nav-nav" to="/myInfo">其他</router-link>
+        <!-- <router-link class="nav-nav" to="/myInfo">其他</router-link> -->
       </div>
     </div>
   </div>

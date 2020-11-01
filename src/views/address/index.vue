@@ -1,14 +1,17 @@
 <template>
   <div class="address">
-    <h1>这是 address 页面</h1>
+    <mapCon></mapCon>
   </div>
 </template>
 
 <script>
+import mapCon from "../../components/Map/Map";
 export default {
   name: "Address",
   // 组件
-  components: {},
+  components: {
+    mapCon,
+  },
   data() {
     return {};
   },

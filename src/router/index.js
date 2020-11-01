@@ -5,11 +5,12 @@ import Home from "../views/home/index.vue";
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: "/",
-  //   name: "Home",
-  //   component: Home,
-  // },
+  {
+    path: "/",
+    name: "Homes",
+    redirect: "/home",
+    component: Home,
+  },
   // 我的家 Home 首页
   {
     path: "/home",

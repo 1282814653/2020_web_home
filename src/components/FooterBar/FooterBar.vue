@@ -59,6 +59,7 @@ export default {
   background-color: #222;
   .footer-con {
     width: 1200px;
+    height: 200px;
     display: flex;
     align-items: center;
     //     // 图片
@@ -67,12 +68,10 @@ export default {
       height: 100%;
       margin-left: 150px;
       margin-top: 50px;
-      .con-img-vx,
-      .con-img-qq {
+      .con-img-vx {
         width: 150px;
         height: 150px;
-        .img-vx,
-        .img-qq {
+        .img-vx {
           width: 100%;
           height: 100%;
         }
