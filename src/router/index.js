@@ -11,6 +11,11 @@ const routes = [
     redirect: "/home",
     component: Home,
   },
+  {
+    path: "/index",
+    redirect: "/home",
+    component: Home,
+  },
   // 我的家 Home 首页
   {
     path: "/home",

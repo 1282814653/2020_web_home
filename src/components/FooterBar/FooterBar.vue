@@ -53,14 +53,14 @@ export default {
 .footer {
   width: 100%;
   height: 200px;
-  display: flex;
-  justify-content: center;
   color: #999;
   background-color: #222;
   .footer-con {
     width: 1200px;
     height: 200px;
     display: flex;
+    margin: 0 auto;
+    // justify-content: center;
     align-items: center;
     //     // 图片
     .footer-con-img {
